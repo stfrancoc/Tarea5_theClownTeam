@@ -29,7 +29,8 @@ public class Banda {
     }
 
     public void EliminarMiembro(String nombre) {
-        Miembro miembroEliminar = buscarMiembro(nombre);
+        Miembro miembroEliminar = new Miembro();
+        miembroEliminar = miembroEliminar.buscarMiembro(nombre);
         if (miembroEliminar == null) {
             throw new RuntimeException("El Miembro NO existe");
         } else {
@@ -57,10 +58,11 @@ public class Banda {
     }
 
     public Boolean AgregarCancion(Album album, String nombre, float duracion) {
-        if (album.CancionExiste(nombre)) {
-            return true;
+        if (album.cancionExiste(nombre)) {
+            return false;
         } else {
-            album.agregarCancion(String nombre, float duracion);
+            album.agregarCancion(nombre, duracion);
+            return true;
         }
 
     }
