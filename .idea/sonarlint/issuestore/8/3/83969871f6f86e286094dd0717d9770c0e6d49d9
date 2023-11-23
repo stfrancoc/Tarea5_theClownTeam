@@ -1,8 +1,8 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜­Ôýÿÿÿÿ8ô¥’æ¿1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜­Ôýÿÿÿÿ8Îëµç¿1
 L
-java:S1068"*Remove this unused "nombre" private field.(µÿï„ùÿÿÿÿ8ù¥’æ¿1
+java:S1068"*Remove this unused "nombre" private field.(µÿï„ùÿÿÿÿ8ä€Øî¿1
 K
-java:S1068")Remove this unused "fecha" private field.(×ÅÛªúÿÿÿÿ8ú¥’æ¿1
+java:S1068")Remove this unused "fecha" private field.(×ÅÛªúÿÿÿÿ8ä€Øî¿1
 O
-java:S1068	"-Remove this unused "canciones" private field.(Ÿ¨ñ´ýÿÿÿÿ8ú¥’æ¿1
+java:S1068	"-Remove this unused "canciones" private field.(Ÿ¨ñ´ýÿÿÿÿ8ä€Øî¿1
