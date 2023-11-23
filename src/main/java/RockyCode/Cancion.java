@@ -13,7 +13,23 @@ public class Cancion {
         return nombre;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public float getDuracion() {
         return duracion;
+    }
+
+    public void setDuracion(float duracion) {
+        this.duracion = duracion;
+    }
+
+    @Override
+    public String toString() {
+        return "Cancion{" +
+                "nombre='" + nombre + '\'' +
+                ", duracion=" + duracion +
+                '}';
     }
 }

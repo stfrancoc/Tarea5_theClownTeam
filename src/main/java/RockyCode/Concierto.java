@@ -79,4 +79,16 @@ public class Concierto {
     public void setCanciones(List<Cancion> canciones) {
         Canciones = canciones;
     }
+
+    @Override
+    public String toString() {
+        return "Concierto{" +
+                "Nombre='" + Nombre + '\'' +
+                ", Lugar='" + Lugar + '\'' +
+                ", Fecha=" + Fecha +
+                ", Hora=" + Hora +
+                ", Capacidad=" + Capacidad +
+                ", Boletos=" + Boletos +
+                '}';
+    }
 }
