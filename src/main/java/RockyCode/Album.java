@@ -8,9 +8,11 @@ public class Album {
     private LocalDate fecha;
     private List<Cancion> canciones;
 
-    public Album(String nombre, LocalDate fecha, List<Cancion> canciones) {
+    public Album(String nombre, LocalDate fecha) {
         this.nombre = nombre;
         this.fecha = fecha;
-        this.canciones = canciones;
     }
+
+
+
 }

@@ -8,4 +8,12 @@ public class Cancion {
         this.nombre = nombre;
         this.duracion = duracion;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public float getDuracion() {
+        return duracion;
+    }
 }
