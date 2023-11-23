@@ -12,4 +12,28 @@ public class Miembro {
         this.rolBanda = rolBanda;
         this.instrumentos = instrumentos;
     }
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getRolBanda() {
+        return rolBanda;
+    }
+
+    public void setRolBanda(String rolBanda) {
+        this.rolBanda = rolBanda;
+    }
+
+    public List<String> getInstrumentos() {
+        return instrumentos;
+    }
+
+    public void setInstrumentos(List<String> instrumentos) {
+        this.instrumentos = instrumentos;
+    }
+
 }
