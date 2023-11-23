@@ -47,13 +47,22 @@ public class Banda {
         return false;
     }
 
-    public Miembro buscarMiembro(String nombre) {
+    public Miembro BuscarMiembro(String nombre) {
         for (Miembro m : miembros) {
             if (m.getNombre() == nombre) {
                 return m;
             }
         }
         return null;
+    }
+
+    public Boolean AgregarCancion(Album album, String nombre, float duracion) {
+        if (album.CancionExiste(nombre)) {
+            return true;
+        } else {
+            album.agregarCancion(String nombre, float duracion);
+        }
+
     }
 
 }

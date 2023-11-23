@@ -16,4 +16,12 @@ public class Cancion {
     public float getDuracion() {
         return duracion;
     }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setDuracion(float duracion) {
+        this.duracion = duracion;
+    }
 }
