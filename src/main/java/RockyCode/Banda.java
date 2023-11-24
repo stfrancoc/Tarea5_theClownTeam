@@ -79,7 +79,6 @@ public class Banda {
         } else {
             miembros.remove(miembroEliminar);
         }
-
     }
 
     public boolean MiembroExiste(String nombre) {
@@ -168,6 +167,14 @@ public class Banda {
             }
         }
         return null;
+    }
+
+    public int registroDeBoletos(String nombre){
+        Concierto concierto = this.buscarConcierto(nombre);
+        if(concierto!=null){
+            return concierto.getBoletos();
+        }
+        return 0;
     }
 
     @Override

@@ -1,20 +1,20 @@
 
-a	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(ºµºj8°éÊø¿1
-g	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(®Ûì¿ûÿÿÿÿ8°éÊø¿1
+a	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(ºµºj8Á…‘ù¿1
+g	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(®Ûì¿ûÿÿÿÿ8Â…‘ù¿1
 :
-java:S1643Ÿ"Use a StringBuilder instead.(„¤÷¢8±éÊø¿1
+java:S1643"Use a StringBuilder instead.(„¤÷¢8Ã…‘ù¿1
 ~
-java:S1488…"aImmediately return this expression instead of assigning it to the temporary variable "concierto".(®òj8£‡Îø¿1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜­Ôıÿÿÿÿ8²éÊø¿1
-j	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù†­™8½éÊø¿1
-o	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºïîşÿÿÿÿ8¿éÊø¿1
-j	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÉ¼8ÀéÊø¿1
-o	java:S100^"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ûïéùÿÿÿÿ8ÀéÊø¿1
-p	java:S100‰"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÅ”Èùÿÿÿÿ8ÂéÊø¿1
-p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÛßúÿÿÿÿ8ÃéÊø¿1
-j	java:S100“"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ô×8ÃéÊø¿1
-k	java:S100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”è™Ü8ÃéÊø¿1
+java:S1488„"aImmediately return this expression instead of assigning it to the temporary variable "concierto".(®òj8Ã…‘ù¿1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜­Ôıÿÿÿÿ8Ä…‘ù¿1
+j	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù†­™8Ê…‘ù¿1
+o	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºïîşÿÿÿÿ8Í…‘ù¿1
+j	java:S100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÉ¼8Î…‘ù¿1
+o	java:S100]"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ûïéùÿÿÿÿ8Î…‘ù¿1
+p	java:S100ˆ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÅ”Èùÿÿÿÿ8Ñ…‘ù¿1
+p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÛßúÿÿÿÿ8Ò…‘ù¿1
+j	java:S100’"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ô×8Ò…‘ù¿1
+k	java:S100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”è™Ü8Ò…‘ù¿1
 C
-java:S1481"&Remove this unused "c" local variable.(ŸîÓ8ÄéÊø¿1
+java:S1481"&Remove this unused "c" local variable.(ŸîÓ8Ó…‘ù¿1
 S
-java:S1481¯"5Remove this unused "nombresCanciones" local variable.(×˜”«8ÄéÊø¿1
+java:S1481¶"5Remove this unused "nombresCanciones" local variable.(×˜”«8Ô…‘ù¿1
