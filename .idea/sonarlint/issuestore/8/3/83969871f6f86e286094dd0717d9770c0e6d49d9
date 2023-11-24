@@ -1,6 +1,4 @@
 
+9
+java:S1643G"Use a StringBuilder instead.(«¢¶Ò8¡î»ï¿1
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜­Ôýÿÿÿÿ8Îëµç¿1
-L
-java:S1068"*Remove this unused "nombre" private field.(µÿï„ùÿÿÿÿ8Üëµç¿1
-K
-java:S1068")Remove this unused "fecha" private field.(×ÅÛªúÿÿÿÿ8Üëµç¿1

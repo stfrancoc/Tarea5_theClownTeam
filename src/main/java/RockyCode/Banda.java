@@ -63,10 +63,9 @@ public class Banda {
         return miembros;
     }
 
-
-    public void AgregarMiembro(String nombre, String rolBanda, List<String> instrumentos) throws Exception {
+    public void AgregarMiembro(String nombre, String rolBanda) throws Exception {
         if (!MiembroExiste(nombre)) {
-            Miembro nuevoMiembro = new Miembro(nombre, rolBanda, instrumentos);
+            Miembro nuevoMiembro = new Miembro(nombre, rolBanda);
             miembros.add(nuevoMiembro);
         } else {
             throw new Exception("El Miembro ya existe");
@@ -74,8 +73,7 @@ public class Banda {
     }
 
     public void EliminarMiembro(String nombre) throws Exception {
-        Miembro miembroEliminar = new Miembro();
-        miembroEliminar = miembroEliminar.buscarMiembro(nombre);
+        Miembro miembroEliminar = BuscarMiembro(nombre);
         if (miembroEliminar == null) {
             throw new Exception("El Miembro NO existe");
         } else {
@@ -102,14 +100,38 @@ public class Banda {
         return null;
     }
 
-    public Boolean AgregarCancion(Album album, String nombre, float duracion) {
-        if (album.cancionExiste(nombre)) {
-            return false;
-        } else {
-            album.agregarCancion(nombre, duracion);
-            return true;
+    //cambiar lo del album que reciba solo el nombre--------------------------------------------------------
+    public Boolean agregarCancionAlbum(String nombreAlbum, String nombre, float duracion) {
+        Album album = this.BuscarAlbum(nombreAlbum);
+        if(album!=null){
+            if (album.cancionExiste(nombre)) {
+                return false;
+            } else {
+                album.agregarCancion(nombre, duracion);
+                return true;
+            }
         }
+        return false;
+    }
 
+    public boolean agregarCancionConcierto(String nombreAlbum,String nombre,String nombreConcierto){
+        Album album = this.BuscarAlbum(nombreAlbum);
+        Concierto concierto = this.buscarConcierto(nombreConcierto);
+        if(album!=null && concierto!=null){
+            Cancion cancioncita = album.buscarCancion(nombre);
+            if(cancioncita!=null){
+             concierto.adicionCancion(cancioncita);
+            }
+        }
+        return false;
+    }
+
+    public Concierto programarConcierto(String nombre, String lugar, LocalDate fecha, LocalDate hora, int capacidad, int boletos){
+        if(this.buscarConcierto(nombre)!=null){
+            return null;
+        }
+        Concierto concierto = new Concierto(nombre,lugar,fecha,hora,capacidad,boletos);
+        return concierto;
     }
 
     public void NuevoAlbum(String nombre, LocalDate fecha) {
@@ -139,9 +161,27 @@ public class Banda {
         return mensaje;
     }
 
+    public Concierto buscarConcierto(String nombre){
+        for(Concierto concierto:conciertos){
+            if(concierto.getNombre().equalsIgnoreCase(nombre)){
+                return concierto;
+            }
+        }
+        return null;
+    }
+
     @Override
     public String toString() {
-        return "Banda{" + "genero='" + genero + '\'' + ", nombre='" + nombre + '\'' + ", fechaCreacion=" + fechaCreacion + ", fotos=" + fotos + ", albumes=" + albumes + ", miembros=" + miembros + '}';
+        String nombresCanciones = "";
+        return "Banda{" + "genero='" + genero + '\'' + ", nombre='" + nombre + '\''
+                + ", fechaCreacion=" + fechaCreacion + ", fotos=" + fotos + ", albumes=" + albumes + ", miembros=" + miembros + '}';
     }
 
 }
+
+//falta consultar informaciond de la banda
+//consultar canciones del album
+//programar un nuevo concierto
+//asignar lista de canciones al concierto
+//registrar el todal de voletos vendidos en el concurso
+//consultar todolso los conciertos realizados cada uno con sus boletas vendidas

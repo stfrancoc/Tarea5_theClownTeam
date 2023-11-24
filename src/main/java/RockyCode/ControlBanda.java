@@ -19,9 +19,9 @@ public class ControlBanda {
         banda.setFechaCreacion(fechaCreacion);
     }
 
-    public void NuevoMiembro(String nombre, String rolBanda, List<String> instrumentos) {
+    public void NuevoMiembro(String nombre, String rolBanda) {
         try {
-            banda.AgregarMiembro(nombre, rolBanda, instrumentos);
+            banda.AgregarMiembro(nombre, rolBanda);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

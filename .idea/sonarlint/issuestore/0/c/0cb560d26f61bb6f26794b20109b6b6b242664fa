@@ -1,8 +1,2 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜­Ôýÿÿÿÿ8Æ¢÷Ö¿1
-L
-java:S1068"*Remove this unused "nombre" private field.(µÿï„ùÿÿÿÿ8É¢÷Ö¿1
-I
-java:S1068",Remove this unused "rolBanda" private field.(‘ÎžÂ8É¢÷Ö¿1
-R
-java:S1068"0Remove this unused "instrumentos" private field.(Ë£äÇûÿÿÿÿ8É¢÷Ö¿1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜­Ôýÿÿÿÿ8Óìóñ¿1

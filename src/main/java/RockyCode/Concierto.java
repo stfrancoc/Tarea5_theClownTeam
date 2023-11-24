@@ -11,16 +11,16 @@ public class Concierto {
     private LocalDate Hora;
     private int Capacidad;
     private int Boletos;
-    private List<Cancion> Canciones;
+    private List<Cancion> canciones;
 
-    public Concierto(String nombre, String lugar, LocalDate fecha, LocalDate hora, int capacidad, int boletos, List<Cancion> canciones) {
+    //cambiar canciones porque recibe la lista de canciones
+    public Concierto(String nombre, String lugar, LocalDate fecha, LocalDate hora, int capacidad, int boletos) {
         Nombre = nombre;
         Lugar = lugar;
         Fecha = fecha;
         Hora = hora;
         Capacidad = capacidad;
         Boletos = boletos;
-        Canciones = canciones;
     }
 
 
@@ -73,11 +73,16 @@ public class Concierto {
     }
 
     public List<Cancion> getCanciones() {
-        return Canciones;
+        return canciones;
     }
 
+    public void adicionCancion(Cancion cancion){
+        canciones.add(cancion);
+    }
+
+    //no recibir toda la lista
     public void setCanciones(List<Cancion> canciones) {
-        Canciones = canciones;
+        this.canciones = canciones;
     }
 
     @Override

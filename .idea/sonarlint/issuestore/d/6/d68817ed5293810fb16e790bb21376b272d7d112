@@ -1,10 +1,9 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜­Ôıÿÿÿÿ
-k	java:S116"QRename this field "Nombre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş¾Îüÿÿÿÿ
-j	java:S116	"PRename this field "Lugar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÎ­åûÿÿÿÿ
-j	java:S116
-"PRename this field "Fecha" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÂÊÿÿÿÿÿ
-i	java:S116"ORename this field "Hora" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù„íªûÿÿÿÿ
-i	java:S116"TRename this field "Capacidad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Æùö
-l	java:S116"RRename this field "Boletos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËØü–üÿÿÿÿ
-i	java:S116"TRename this field "Canciones" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¸Öœ
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜­Ôıÿÿÿÿ8ÑÚì÷¿1
+r	java:S116"QRename this field "Nombre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş¾Îüÿÿÿÿ8×Úì÷¿1
+q	java:S116	"PRename this field "Lugar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÎ­åûÿÿÿÿ8×Úì÷¿1
+q	java:S116
+"PRename this field "Fecha" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÂÊÿÿÿÿÿ8×Úì÷¿1
+p	java:S116"ORename this field "Hora" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù„íªûÿÿÿÿ8×Úì÷¿1
+p	java:S116"TRename this field "Capacidad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Æùö8ØÚì÷¿1
+s	java:S116"RRename this field "Boletos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËØü–üÿÿÿÿ8ØÚì÷¿1
