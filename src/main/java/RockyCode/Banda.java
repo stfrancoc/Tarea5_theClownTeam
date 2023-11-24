@@ -100,7 +100,7 @@ public class Banda {
     }
 
     //cambiar lo del album que reciba solo el nombre--------------------------------------------------------
-    public Boolean agregarCancionAlbum(String nombreAlbum, String nombre, float duracion) {
+    public boolean agregarCancionAlbum(String nombreAlbum, String nombre, float duracion) {
         Album album = this.BuscarAlbum(nombreAlbum);
         if(album!=null){
             if (album.cancionExiste(nombre)) {
