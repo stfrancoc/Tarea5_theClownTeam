@@ -1,6 +1,7 @@
 package RockyCode;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Concierto {
@@ -21,6 +22,7 @@ public class Concierto {
         Hora = hora;
         Capacidad = capacidad;
         Boletos = boletos;
+        canciones = new ArrayList<>();
     }
 
 
@@ -94,6 +96,7 @@ public class Concierto {
                 ", Hora=" + Hora +
                 ", Capacidad=" + Capacidad +
                 ", Boletos=" + Boletos +
+                ", Canciones=" + canciones +
                 '}';
     }
 }

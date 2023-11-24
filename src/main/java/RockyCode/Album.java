@@ -1,6 +1,7 @@
 package RockyCode;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Album {
@@ -11,6 +12,7 @@ public class Album {
     public Album(String nombre, LocalDate fecha) {
         this.nombre = nombre;
         this.fecha = fecha;
+        this.canciones = new ArrayList<>();
     }
 
     public String getNombre() {

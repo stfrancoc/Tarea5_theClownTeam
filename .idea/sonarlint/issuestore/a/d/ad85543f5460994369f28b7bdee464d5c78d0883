@@ -1,20 +1,30 @@
 
-a	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(ºµºj8Á…‘ù¿1
-g	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(®Ûì¿ûÿÿÿÿ8Â…‘ù¿1
+a	java:S112T"FDefine and throw a dedicated exception instead of using a generic one.(ºµºj8çÒş¿1
+b	java:S112K"FDefine and throw a dedicated exception instead of using a generic one.(Ù†­™8éÒş¿1
+g	java:S112["FDefine and throw a dedicated exception instead of using a generic one.(®Ûì¿ûÿÿÿÿ8éÒş¿1
+g	java:S112X"FDefine and throw a dedicated exception instead of using a generic one.(»ºïîşÿÿÿÿ8éÒş¿1
 :
-java:S1643"Use a StringBuilder instead.(„¤÷¢8Ã…‘ù¿1
-~
-java:S1488„"aImmediately return this expression instead of assigning it to the temporary variable "concierto".(®òj8Ã…‘ù¿1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜­Ôıÿÿÿÿ8Ä…‘ù¿1
-j	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù†­™8Ê…‘ù¿1
-o	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºïîşÿÿÿÿ8Í…‘ù¿1
-j	java:S100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÉ¼8Î…‘ù¿1
-o	java:S100]"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ûïéùÿÿÿÿ8Î…‘ù¿1
-p	java:S100ˆ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÅ”Èùÿÿÿÿ8Ñ…‘ù¿1
-p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÛßúÿÿÿÿ8Ò…‘ù¿1
-j	java:S100’"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ô×8Ò…‘ù¿1
-k	java:S100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”è™Ü8Ò…‘ù¿1
+java:S1643¶"Use a StringBuilder instead.(„¤÷¢8ìÒş¿1
+:
+java:S1643Ğ"Use a StringBuilder instead.(íº—8ìÒş¿1
+Y
+java:S4973d"<Strings and Boxed types should be compared using "equals()".(ã´ø€8íÒş¿1
+Y
+java:S4973n"<Strings and Boxed types should be compared using "equals()".(ã´ø€8íÒş¿1
+_
+java:S4973¬"<Strings and Boxed types should be compared using "equals()".(ÛÉ˜ˆıÿÿÿÿ8îÒş¿1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜­Ôıÿÿÿÿ8îÒş¿1
+h
+java:S2259N"FA "NullPointerException" could be thrown; "miembros" is nullable here.(Û°¶Âùÿÿÿÿ8…Óş¿1
+j	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù†­™8Óş¿1
+i
+java:S1871P"LThis branch's code block is the same as the block for the branch on line 76.(¾è•»8Óş¿1
+o	java:S100X"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºïîşÿÿÿÿ8”Óş¿1
+j	java:S100a"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÉ¼8–Óş¿1
+o	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ûïéùÿÿÿÿ8—Óş¿1
+p	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÅ”Èùÿÿÿÿ8œÓş¿1
+p	java:S100¥"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÛßúÿÿÿÿ8Óş¿1
+j	java:S100ª"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ô×8Óş¿1
+k	java:S100³"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”è™Ü8Óş¿1
 C
-java:S1481"&Remove this unused "c" local variable.(ŸîÓ8Ó…‘ù¿1
-S
-java:S1481¶"5Remove this unused "nombresCanciones" local variable.(×˜”«8Ô…‘ù¿1
+java:S1481µ"&Remove this unused "c" local variable.(ŸîÓ8Óş¿1

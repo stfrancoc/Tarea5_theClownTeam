@@ -1,5 +1,6 @@
 package RockyCode;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Miembro {
@@ -11,7 +12,7 @@ public class Miembro {
     public Miembro(String nombre, String rolBanda) {
         this.nombre = nombre;
         this.rolBanda = rolBanda;
-
+        this.instrumentos = new ArrayList<>();
     }
 
     public String getNombre() {
@@ -38,5 +39,8 @@ public class Miembro {
         this.instrumentos = instrumentos;
     }
 
+    public void agregarInstrumento(String nombre){
+        this.instrumentos.add(nombre);
+    }
 
 }

@@ -1,6 +1,7 @@
 package RockyCode;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Banda {
@@ -17,6 +18,10 @@ public class Banda {
         this.genero = genero;
         this.nombre = nombre;
         this.fechaCreacion = fechaCreacion;
+        this.miembros = new ArrayList<>();
+        this.fotos = new ArrayList<>();
+        this.albumes = new ArrayList<>();
+        this.conciertos = new ArrayList<>();
     }
 
     public String getGenero() {
@@ -63,8 +68,16 @@ public class Banda {
         return miembros;
     }
 
+    public void agregarFoto(String foto){
+        fotos.add(foto);
+    }
+
     public void AgregarMiembro(String nombre, String rolBanda) throws Exception {
-        if (!MiembroExiste(nombre)) {
+        if(miembros == null){
+            Miembro nuevoMiembro = new Miembro(nombre, rolBanda);
+            miembros.add(nuevoMiembro);
+        }
+        else if (!MiembroExiste(nombre)) {
             Miembro nuevoMiembro = new Miembro(nombre, rolBanda);
             miembros.add(nuevoMiembro);
         } else {
@@ -82,9 +95,11 @@ public class Banda {
     }
 
     public boolean MiembroExiste(String nombre) {
-        for (Miembro m : miembros) {
-            if (m.getNombre() == nombre) {
-                return true;
+        if(!miembros.isEmpty()){
+            for (Miembro m : miembros) {
+                if (m.getNombre() == nombre) {
+                    return true;
+                }
             }
         }
         return false;
@@ -97,6 +112,13 @@ public class Banda {
             }
         }
         return null;
+    }
+
+    public void agregarInstrumentoMiembro(String nombreMiembro,String instrumento){
+        Miembro miembro = this.BuscarMiembro(nombreMiembro);
+        if(miembro!=null){
+            miembro.agregarInstrumento(instrumento);
+        }
     }
 
     //cambiar lo del album que reciba solo el nombre--------------------------------------------------------
@@ -120,6 +142,7 @@ public class Banda {
             Cancion cancioncita = album.buscarCancion(nombre);
             if(cancioncita!=null){
              concierto.adicionCancion(cancioncita);
+             return true;
             }
         }
         return false;
@@ -130,12 +153,13 @@ public class Banda {
             return null;
         }
         Concierto concierto = new Concierto(nombre,lugar,fecha,hora,capacidad,boletos);
+        conciertos.add(concierto);
         return concierto;
     }
 
     public void NuevoAlbum(String nombre, LocalDate fecha) {
         Album nvAlbum = new Album(nombre, fecha);
-        this.albumes.add(nvAlbum);
+        albumes.add(nvAlbum);
     }
 
     public String ConsultarAlbum(String nombre) {
@@ -179,9 +203,14 @@ public class Banda {
 
     @Override
     public String toString() {
-        String nombresCanciones = "";
+        String listaMiembros = "[ ";
+        for(Miembro miembro:miembros){
+            listaMiembros = listaMiembros + miembro.getNombre() + " ";
+        }
+        listaMiembros = listaMiembros + "]";
         return "Banda{" + "genero='" + genero + '\'' + ", nombre='" + nombre + '\''
-                + ", fechaCreacion=" + fechaCreacion + ", fotos=" + fotos + ", albumes=" + albumes + ", miembros=" + miembros + '}';
+                + ", fechaCreacion=" + fechaCreacion + ", fotos=" + fotos + ", albumes=" + albumes + ", miembros=" + listaMiembros +
+                ", conciertos="+ conciertos + '}';
     }
 
 }

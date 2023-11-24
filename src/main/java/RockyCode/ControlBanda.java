@@ -11,6 +11,14 @@ public class ControlBanda {
         banda = new Banda(genero, nombre, fechaCreacion);
     }
 
+    public void actualizarFoto(String foto){
+        banda.agregarFoto(foto);
+    }
+
+    public void actualizarNombre(String nombre){
+        banda.setNombre(nombre);
+    }
+
     public void actualizarGeneroBanda(String genero) {
         banda.setGenero(genero);
     }
@@ -36,7 +44,7 @@ public class ControlBanda {
     }
 
     public void InfoBanda() {
-        System.out.println(banda);
+        System.out.println(banda.toString());
     }
 
     public void NuevoAlbum(String nombre, LocalDate fecha) {
@@ -54,6 +62,10 @@ public class ControlBanda {
     public void agregarCancionesAlbum(String nombreAlbum, String nombre, float duracion){
         System.out.println(banda.agregarCancionAlbum(nombreAlbum,nombre,duracion));
     }
+
+    public void agregarInstrumentoMiembro(String nombreMiembro,String instrumento){
+        banda.agregarInstrumentoMiembro(nombreMiembro,instrumento);
+    };
 
     public void consultarAlbum(String nombre){
         System.out.println(banda.ConsultarAlbum(nombre));
