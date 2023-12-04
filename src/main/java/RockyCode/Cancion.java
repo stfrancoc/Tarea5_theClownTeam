@@ -4,10 +4,16 @@ public class Cancion {
     private String nombre;
     private float duracion;
 
+    /**
+     * permite crear un objeto de clase cancion
+     * @param nombre
+     * @param duracion
+     */
     public Cancion(String nombre, float duracion) {
         this.nombre = nombre;
         this.duracion = duracion;
     }
+
 
     public String getNombre() {
         return nombre;

@@ -13,7 +13,12 @@ public class Banda {
     private List<Miembro> miembros;
     private List<Concierto> conciertos;
 
-
+    /**
+     * constructor convencional para la creacion del objeto que recibe propiedades basicas
+     * @param genero tipo de musica con la que se identifican la mayoria de las canciones de la banda
+     * @param nombre palabra clave con la que es reconocida la banda
+     * @param fechaCreacion fecha en la que se crea o funda la banda
+     */
     public Banda(String genero, String nombre, LocalDate fechaCreacion) {
         this.genero = genero;
         this.nombre = nombre;
@@ -72,6 +77,14 @@ public class Banda {
         fotos.add(foto);
     }
 
+    /**
+     * verifica que un miembro no este en la lista de los miembros de la banda y
+     * permite agregarlo si no es el caso
+     * @param nombre palabra clave con la que se verifica si un miembro existe,
+     *               ademas de ser el nombre de integrande o miembro de la banda
+     * @param rolBanda trabajo o responsabilidad del miembro en la banda
+     * @throws Exception en caso de que exista el miembro lanza una exception
+     */
     public void AgregarMiembro(String nombre, String rolBanda) throws Exception {
         if(miembros == null){
             Miembro nuevoMiembro = new Miembro(nombre, rolBanda);
@@ -94,6 +107,11 @@ public class Banda {
         }
     }
 
+    /**
+     * Verifica en la lista que posee la clase si el nombre ingresado existe en esta
+     * @param nombre Nombre a buscar en la lista de Miembros
+     * @return
+     */
     public boolean MiembroExiste(String nombre) {
         if(!miembros.isEmpty()){
             for (Miembro m : miembros) {
@@ -105,6 +123,13 @@ public class Banda {
         return false;
     }
 
+    /**
+     * mediante cierta propiedad del miembro lo busca en la lista de miembros y lo devuelve para su manejo
+     * en caso de no encontrarlo devolvera un null
+     * @param nombre propiedad por la cual se busca dicho miembro
+     * @return un objeto de tipo miembro en caso de encontrar el miembro en la lista de miembros en caso contrario
+     *         retornara un null
+     */
     public Miembro BuscarMiembro(String nombre) {
         for (Miembro m : miembros) {
             if (m.getNombre() == nombre) {
@@ -114,6 +139,11 @@ public class Banda {
         return null;
     }
 
+    /**
+     * Verifica que el miembro exista dentro de la lista de miembros para asignarle un instrumento
+     * @param nombreMiembro se utiliza para buscar en la lista de miembros
+     * @param instrumento se utiliza para añadir ese instrumento al miebro
+     */
     public void agregarInstrumentoMiembro(String nombreMiembro,String instrumento){
         Miembro miembro = this.BuscarMiembro(nombreMiembro);
         if(miembro!=null){
@@ -214,10 +244,3 @@ public class Banda {
     }
 
 }
-
-//falta consultar informaciond de la banda
-//consultar canciones del album
-//programar un nuevo concierto
-//asignar lista de canciones al concierto
-//registrar el todal de voletos vendidos en el concurso
-//consultar todolso los conciertos realizados cada uno con sus boletas vendidas

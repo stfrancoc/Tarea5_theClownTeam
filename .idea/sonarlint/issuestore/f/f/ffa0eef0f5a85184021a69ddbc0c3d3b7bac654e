@@ -19,3 +19,5 @@ L	java:S106G"+Replace this use of System.out by a logger.(ŠùÒìûÿÿÿÿ8ı¢¤ş¿1
 L	java:S106O"+Replace this use of System.out by a logger.(óëî½üÿÿÿÿ8ƒ£¤ş¿1
 F	java:S106S"+Replace this use of System.out by a logger.(ÚñÎp8†£¤ş¿1
 L	java:S106W"+Replace this use of System.out by a logger.(¥ğÿ‰şÿÿÿÿ8ˆ£¤ş¿1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ã«·ŒÀ1
