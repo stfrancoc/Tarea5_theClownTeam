@@ -15,3 +15,5 @@ Y
 )src/main/java/RockyCode/ControlBanda.java,f\f\ffa0eef0f5a85184021a69ddbc0c3d3b7bac654e
 Q
 !src/main/java/RockyCode/Main.java,b\a\ba1e481ccc117bffd0b83624ef3c9bb3e752f0f0
+V
+&src/test/java/RockyCode/AlbumTest.java,a\c\ac4d5ea9511f59f19ca3a8029e690dbdb3d6c641
