@@ -202,8 +202,9 @@ public class Banda {
     }
 
     /**
-     *
-     * @param nombre
+     * verifica que el concierto no exista en la lista de conciertos
+     * en caso de no estarlo lo agrega a la lista
+     * @param nombre palabra clave o nombre con el que se busca el concierto en la lista
      * @param lugar
      * @param fecha
      * @param hora
@@ -211,6 +212,7 @@ public class Banda {
      * @param boletos
      * @return
      */
+    //pensar si cambiar el null y mejor devolver el concierto que ya esta hecho
     public Concierto programarConcierto(String nombre, String lugar, LocalDate fecha, LocalDate hora, int capacidad, int boletos){
         if(this.buscarConcierto(nombre)!=null){
             return null;

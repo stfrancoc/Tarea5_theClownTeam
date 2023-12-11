@@ -4,15 +4,15 @@ b	java:S112X"FDefine and throw a dedicated exception instead of using a generi
 g	java:S112o"FDefine and throw a dedicated exception instead of using a generic one.(®Ûì¿ûÿÿÿÿ8ÄéÔÏÃ1
 g	java:S112l"FDefine and throw a dedicated exception instead of using a generic one.(»ºïîşÿÿÿÿ8ÄéÔÏÃ1
 :
-java:S1643õ"Use a StringBuilder instead.(„¤÷¢8ÆéÔÏÃ1
+java:S1643÷"Use a StringBuilder instead.(„¤÷¢8ÆéÔÏÃ1
 :
-java:S1643"Use a StringBuilder instead.(íº—8ÆéÔÏÃ1
+java:S1643‘"Use a StringBuilder instead.(íº—8ÆéÔÏÃ1
 Y
 java:S4973~"<Strings and Boxed types should be compared using "equals()".(ã´ø€8ÉéÔÏÃ1
 Z
 java:S4973"<Strings and Boxed types should be compared using "equals()".(ã´ø€8ÊéÔÏÃ1
 _
-java:S4973ë"<Strings and Boxed types should be compared using "equals()".(ÛÉ˜ˆıÿÿÿÿ8ÊéÔÏÃ1
+java:S4973í"<Strings and Boxed types should be compared using "equals()".(ÛÉ˜ˆıÿÿÿÿ8ÊéÔÏÃ1
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜­Ôıÿÿÿÿ8ÌéÔÏÃ1
 h
 java:S2259["FA "NullPointerException" could be thrown; "miembros" is nullable here.(Û°¶Âùÿÿÿÿ8üéÔÏÃ1
@@ -22,9 +22,9 @@ java:S1871]"LThis branch's code block is the same as the block for the branch o
 o	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºïîşÿÿÿÿ8“êÔÏÃ1
 j	java:S100{"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÉ¼8•êÔÏÃ1
 p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ûïéùÿÿÿÿ8—êÔÏÃ1
-p	java:S100ß"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÅ”Èùÿÿÿÿ8ŸêÔÏÃ1
-p	java:S100ä"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÛßúÿÿÿÿ8 êÔÏÃ1
-j	java:S100é"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ô×8¡êÔÏÃ1
-k	java:S100ò"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”è™Ü8£êÔÏÃ1
+p	java:S100á"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÅ”Èùÿÿÿÿ8ŸêÔÏÃ1
+p	java:S100æ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÛßúÿÿÿÿ8 êÔÏÃ1
+j	java:S100ë"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ô×8¡êÔÏÃ1
+k	java:S100ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”è™Ü8£êÔÏÃ1
 C
-java:S1481ô"&Remove this unused "c" local variable.(ŸîÓ8¤êÔÏÃ1
+java:S1481ö"&Remove this unused "c" local variable.(ŸîÓ8¤êÔÏÃ1
