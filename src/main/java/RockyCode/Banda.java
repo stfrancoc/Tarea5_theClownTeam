@@ -98,6 +98,13 @@ public class Banda {
         }
     }
 
+    /**
+     * verifica que un miembro este en la lista de miembros de la banda en caso
+     * de que si este permite eliminarlo
+     * @param nombre palabra clave con la que se verifica si un miembro existe,
+     *               ademas de ser el nombre de integrande o miembro de la banda
+     * @throws Exception en caso de no existir el miembro no se puede usar el metodo
+     */
     public void EliminarMiembro(String nombre) throws Exception {
         Miembro miembroEliminar = BuscarMiembro(nombre);
         if (miembroEliminar == null) {
@@ -108,9 +115,10 @@ public class Banda {
     }
 
     /**
-     * Verifica en la lista que posee la clase si el nombre ingresado existe en esta
-     * @param nombre Nombre a buscar en la lista de Miembros
-     * @return
+     * Verifica en la lista de miembros que posee la clase si el nombre ingresado existe
+     * @param nombre palabra clave o nombre a buscar en la lista de Miembros
+     * @return un true si el miembro es encontrado en la lista de los miembros
+     *          un false en caso contrario que no se encuentre el miembro en la lista
      */
     public boolean MiembroExiste(String nombre) {
         if(!miembros.isEmpty()){
@@ -151,7 +159,14 @@ public class Banda {
         }
     }
 
-    //cambiar lo del album que reciba solo el nombre--------------------------------------------------------
+    /**
+     * verifica que una cancion esta en el album en caso contrario de no estar la agrega al album
+     * @param nombreAlbum palabra clave o nombre con el que se busca el album en la lista de albumes
+     * @param nombre palabra clave o nombre con el que se busca la cancion en album
+     *               ademas de ser el nombre con el que se crea la cancion
+     * @param duracion duracion en minutos con que sea crea la cancion
+     * @return un true si se pudo crear la cancion, un false si no se pudo
+     */
     public boolean agregarCancionAlbum(String nombreAlbum, String nombre, float duracion) {
         Album album = this.BuscarAlbum(nombreAlbum);
         if(album!=null){
@@ -165,6 +180,14 @@ public class Banda {
         return false;
     }
 
+    /**
+     * verficia primero que el concierto y el album existan, despues si la cancion existe
+     * en tal caso agrega la cancion a la lista del concierto
+     * @param nombreAlbum palabra clave o nombre con el que se busca el album
+     * @param nombre palabra clave o nombre con el que se busca la cancion
+     * @param nombreConcierto palabra clave o nombre con el que se busca el concierto
+     * @return un true si se pudo agregar la cancion o un false si no se pudo
+     */
     public boolean agregarCancionConcierto(String nombreAlbum,String nombre,String nombreConcierto){
         Album album = this.BuscarAlbum(nombreAlbum);
         Concierto concierto = this.buscarConcierto(nombreConcierto);
@@ -178,6 +201,16 @@ public class Banda {
         return false;
     }
 
+    /**
+     *
+     * @param nombre
+     * @param lugar
+     * @param fecha
+     * @param hora
+     * @param capacidad
+     * @param boletos
+     * @return
+     */
     public Concierto programarConcierto(String nombre, String lugar, LocalDate fecha, LocalDate hora, int capacidad, int boletos){
         if(this.buscarConcierto(nombre)!=null){
             return null;
