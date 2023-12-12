@@ -14,7 +14,6 @@ public class Concierto {
     private int Boletos;
     private List<Cancion> canciones;
 
-    //cambiar canciones porque recibe la lista de canciones
     public Concierto(String nombre, String lugar, LocalDate fecha, LocalDate hora, int capacidad, int boletos) {
         Nombre = nombre;
         Lugar = lugar;
@@ -82,7 +81,6 @@ public class Concierto {
         canciones.add(cancion);
     }
 
-    //no recibir toda la lista
     public void setCanciones(List<Cancion> canciones) {
         this.canciones = canciones;
     }
