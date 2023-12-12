@@ -205,12 +205,15 @@ public class Banda {
      * verifica que el concierto no exista en la lista de conciertos
      * en caso de no estarlo lo agrega a la lista
      * @param nombre palabra clave o nombre con el que se busca el concierto en la lista
-     * @param lugar
-     * @param fecha
-     * @param hora
-     * @param capacidad
-     * @param boletos
-     * @return
+     *               ademas de ser el nombre que va tener el objeto de no existir
+     * @param lugar locacion en donde se llevara acabo el concierto
+     * @param fecha day/month/year cuando se llevara acabo el evento
+     * @param hora momento cuando se llevara acabo el evento
+     * @param capacidad cantidad de personas que podra asistir al evento
+     * @param boletos cantidad de boletos vendidos del concierto
+     * @return si el concierto ya existia devuelve un null ya que no se creo uno nuevo
+     *          en caso de que no exista y se cree un nuevo concierto con dicha informacion
+     *          devuelve el objeto Concierto
      */
     //pensar si cambiar el null y mejor devolver el concierto que ya esta hecho
     public Concierto programarConcierto(String nombre, String lugar, LocalDate fecha, LocalDate hora, int capacidad, int boletos){
@@ -222,16 +225,35 @@ public class Banda {
         return concierto;
     }
 
+    /**
+     * vertifica que el album no exista y lo agrega a la lista
+     * @param nombre nombre o palabra clave con la que se busca
+     *               el album en la lista, ademas de ser el nombre
+     *               por el cual se va a crear el album
+     * @param fecha momento en el cual se va a lanzar o fue lanzado el album
+     */
     public void NuevoAlbum(String nombre, LocalDate fecha) {
-        Album nvAlbum = new Album(nombre, fecha);
-        albumes.add(nvAlbum);
+        if(this.BuscarAlbum(nombre) == null){
+            Album nvAlbum = new Album(nombre, fecha);
+            albumes.add(nvAlbum);
+        }
     }
 
+    /**
+     * busca un album y devuelve sus propiedades
+     * @param nombre palabra clave con la que se busca el album
+     * @return las diferentes propiedades que tiene el album
+     */
     public String ConsultarAlbum(String nombre) {
         Album album = BuscarAlbum(nombre);
         return album.toString();
     }
 
+    /**
+     * busca un album y devuelve el objeto
+     * @param nombre palabra clave con la que se busca el album
+     * @return el objeto de tipo album
+     */
     public Album BuscarAlbum(String nombre) {
         for (Album a : albumes) {
             if (a.getNombre() == nombre) {
@@ -241,6 +263,10 @@ public class Banda {
         return null;
     }
 
+    /**
+     * develve la informacion de los conciertos de la banda
+     * @return la informacion de todos los conciertos de la banda
+     */
     public String InfoConciertos() {
         String mensaje = "";
         for (Concierto c : conciertos) {
@@ -249,6 +275,12 @@ public class Banda {
         return mensaje;
     }
 
+    /**
+     * verifica si un concierto existe y devuelve dicho objeto
+     * @param nombre palabra clave por la que se busca concierto
+     * @return si se encuentra devuelve el concierto
+     * en caso contrario un null
+     */
     public Concierto buscarConcierto(String nombre){
         for(Concierto concierto:conciertos){
             if(concierto.getNombre().equalsIgnoreCase(nombre)){
@@ -258,6 +290,11 @@ public class Banda {
         return null;
     }
 
+    /**
+     * segun el nombre del concierto busca la cantidad de boletos vendidos
+     * @param nombre palabra clave con la que se busca el concierto
+     * @return la cantidad de boletos vendidos de cierto concierto
+     */
     public int registroDeBoletos(String nombre){
         Concierto concierto = this.buscarConcierto(nombre);
         if(concierto!=null){
