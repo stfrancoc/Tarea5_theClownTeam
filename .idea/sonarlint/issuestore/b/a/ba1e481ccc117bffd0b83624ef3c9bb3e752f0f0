@@ -1,87 +1,11 @@
 
-p
-java:S1192“"SDefine a constant instead of duplicating this literal "Nombre del Ã¡lbum:" 3 times.(ˆ¥à8ÈùúÅ1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜­Ôıÿÿÿÿ8ÊùúÅ1
-n
-java:S2259ò"KA "NullPointerException" could be thrown; "bandaTerminal" is nullable here.(Ûê¤ışÿÿÿÿ8å°–ûÅ1
-n
-java:S2259"KA "NullPointerException" could be thrown; "bandaTerminal" is nullable here.(œêªÛùÿÿÿÿ8æ°–ûÅ1
 i
-java:S2259ã"KA "NullPointerException" could be thrown; "bandaTerminal" is nullable here.(ÍŞ½›8å°–ûÅ1
-n
-java:S2259"KA "NullPointerException" could be thrown; "bandaTerminal" is nullable here.(ÛÅ¤¬ûÿÿÿÿ8å°–ûÅ1
-n
-java:S2259…"KA "NullPointerException" could be thrown; "bandaTerminal" is nullable here.(ºÚÊ’ıÿÿÿÿ8æ°–ûÅ1
-n
-java:S2259ù"KA "NullPointerException" could be thrown; "bandaTerminal" is nullable here.(Û¾Ğúÿÿÿÿ8å°–ûÅ1
-n
-java:S2259²"KA "NullPointerException" could be thrown; "bandaTerminal" is nullable here.(Û¹„ûÿÿÿÿ8ç°–ûÅ1
-n
-java:S2259»"KA "NullPointerException" could be thrown; "bandaTerminal" is nullable here.(õïúíøÿÿÿÿ8æ°–ûÅ1
-n
-java:S2259Ê"KA "NullPointerException" could be thrown; "bandaTerminal" is nullable here.(é®ÆĞúÿÿÿÿ8ç°–ûÅ1
-i
-java:S2259€"KA "NullPointerException" could be thrown; "bandaTerminal" is nullable here.(³­Ùõ8ç°–ûÅ1
-X	java:S125"<This block of commented-out lines of code should be removed.(ûŠ‚ˆ8ª ùúÅ1
-G	java:S106C"+Replace this use of System.out by a logger.(¥‚¼è8¬ ùúÅ1
-G	java:S106D"+Replace this use of System.out by a logger.(úş‡Ä8¬ ùúÅ1
-F	java:S106E"+Replace this use of System.out by a logger.(ª£›?8­ ùúÅ1
-G	java:S106F"+Replace this use of System.out by a logger.(Ò»Ÿµ8­ ùúÅ1
-L	java:S106G"+Replace this use of System.out by a logger.(ı—›şÿÿÿÿ8­ ùúÅ1
-G	java:S106H"+Replace this use of System.out by a logger.(Šâ®8­ ùúÅ1
-G	java:S106I"+Replace this use of System.out by a logger.(íÕĞÁ8­ ùúÅ1
-L	java:S106J"+Replace this use of System.out by a logger.(ìú…¯ûÿÿÿÿ8­ ùúÅ1
-L	java:S106K"+Replace this use of System.out by a logger.(Ğ°¤Íùÿÿÿÿ8­ ùúÅ1
-G	java:S106L"+Replace this use of System.out by a logger.(ˆ¢–Å8­ ùúÅ1
-L	java:S106M"+Replace this use of System.out by a logger.(œ—Òßùÿÿÿÿ8­ ùúÅ1
-L	java:S106N"+Replace this use of System.out by a logger.(Š‡©øÿÿÿÿ8­ ùúÅ1
-L	java:S106O"+Replace this use of System.out by a logger.(¯Ø»¶øÿÿÿÿ8­ ùúÅ1
-L	java:S106P"+Replace this use of System.out by a logger.(Ÿ±ôÙşÿÿÿÿ8­ ùúÅ1
-L	java:S106Q"+Replace this use of System.out by a logger.(Ø«•ùÿÿÿÿ8­ ùúÅ1
-L	java:S106R"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8® ùúÅ1
-L	java:S106T"+Replace this use of System.out by a logger.(æø›ãûÿÿÿÿ8® ùúÅ1
-L	java:S106U"+Replace this use of System.out by a logger.(¶¼îŞùÿÿÿÿ8® ùúÅ1
-F	java:S106Y"+Replace this use of System.out by a logger.(‰ŞŸ]8¯ ùúÅ1
-G	java:S106]"+Replace this use of System.out by a logger.(ä“’Ä8¯ ùúÅ1
-L	java:S106^"+Replace this use of System.out by a logger.(ù¼–©şÿÿÿÿ8¯ ùúÅ1
-L	java:S106e"+Replace this use of System.out by a logger.(…øİ©ûÿÿÿÿ8¯ ùúÅ1
-G	java:S106h"+Replace this use of System.out by a logger.(©±İ¢8° ùúÅ1
-G	java:S106l"+Replace this use of System.out by a logger.(íğÌâ8° ùúÅ1
-G	java:S106p"+Replace this use of System.out by a logger.(©®—¯8° ùúÅ1
-L	java:S106x"+Replace this use of System.out by a logger.(˜İ©–ıÿÿÿÿ8² ùúÅ1
-L	java:S106y"+Replace this use of System.out by a logger.(®èÛ¥øÿÿÿÿ8² ùúÅ1
-L	java:S106|"+Replace this use of System.out by a logger.(ì¡ôùÿÿÿÿ8³ ùúÅ1
-G	java:S106„"+Replace this use of System.out by a logger.(å­©(8³ ùúÅ1
-M	java:S106…"+Replace this use of System.out by a logger.(…²Ğšşÿÿÿÿ8³ ùúÅ1
-H	java:S106ˆ"+Replace this use of System.out by a logger.(ü¦³8³ ùúÅ1
-M	java:S106’"+Replace this use of System.out by a logger.(±ıèüÿÿÿÿ8´ ùúÅ1
-G	java:S106“"+Replace this use of System.out by a logger.(ˆ¥à8´ ùúÅ1
-M	java:S106–"+Replace this use of System.out by a logger.(“ÙÍ¸ûÿÿÿÿ8´ ùúÅ1
-H	java:S106™"+Replace this use of System.out by a logger.(£ş„8´ ùúÅ1
-M	java:S106¢"+Replace this use of System.out by a logger.(˜ÌÔ ÿÿÿÿÿ8´ ùúÅ1
-G	java:S106£"+Replace this use of System.out by a logger.(ˆ¥à8´ ùúÅ1
-M	java:S106«"+Replace this use of System.out by a logger.(Äí…ÿÿÿÿÿ8µ ùúÅ1
-H	java:S106¯"+Replace this use of System.out by a logger.(¨Ó› 8µ ùúÅ1
-H	java:S106¶"+Replace this use of System.out by a logger.(ïÂ»”8µ ùúÅ1
-M	java:S106·"+Replace this use of System.out by a logger.(ëõ•İüÿÿÿÿ8µ ùúÅ1
-H	java:S106¿"+Replace this use of System.out by a logger.(ñ¦’‘8µ ùúÅ1
-H	java:S106À"+Replace this use of System.out by a logger.(¼õ¨Ï8µ ùúÅ1
-M	java:S106Ã"+Replace this use of System.out by a logger.(™ŞÉÆÿÿÿÿÿ8¶ ùúÅ1
-H	java:S106Æ"+Replace this use of System.out by a logger.(¤÷·Ö8¶ ùúÅ1
-M	java:S106Ğ"+Replace this use of System.out by a logger.(øŞÉŸÿÿÿÿÿ8¶ ùúÅ1
-H	java:S106Ñ"+Replace this use of System.out by a logger.(û½ÃÛ8¶ ùúÅ1
-M	java:S106Ô"+Replace this use of System.out by a logger.(½Ò¿£øÿÿÿÿ8¶ ùúÅ1
-M	java:S106×"+Replace this use of System.out by a logger.(¶Ä„Òüÿÿÿÿ8· ùúÅ1
-H	java:S106Ü"+Replace this use of System.out by a logger.(¾õÇ…8· ùúÅ1
-H	java:S106ß"+Replace this use of System.out by a logger.(ÁÒ»8· ùúÅ1
-M	java:S106ç"+Replace this use of System.out by a logger.(£µ¯ıÿÿÿÿ8· ùúÅ1
-G	java:S106è"+Replace this use of System.out by a logger.(ˆ¥à8· ùúÅ1
-H	java:S106ë"+Replace this use of System.out by a logger.(¦ûÜ÷8¸ ùúÅ1
-H	java:S106î"+Replace this use of System.out by a logger.(û½ÃÛ8¸ ùúÅ1
-G	java:S106ö"+Replace this use of System.out by a logger.(¨¶88¸ ùúÅ1
-M	java:S106ı"+Replace this use of System.out by a logger.(Ş–Í»øÿÿÿÿ8¸ ùúÅ1
-M	java:S106ş"+Replace this use of System.out by a logger.(ª¹ôøÿÿÿÿ8¸ ùúÅ1
-M	java:S106"+Replace this use of System.out by a logger.(éÚï†úÿÿÿÿ8¸ ùúÅ1
-H	java:S106‰"+Replace this use of System.out by a logger.(È³ Á8¹ ùúÅ1
-ä
-java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 150 to 64, Complexity from 16 to 14, Nesting Level from 3 to 2, Number of Variables from 36 to 6.(Çµí‘8¹ ùúÅ1
+java:S1192/"LDefine a constant instead of duplicating this literal "los panchos" 3 times.(Ì÷ÏÙ8íÆİûÅ1
+o
+java:S1192"MDefine a constant instead of duplicating this literal "Mamasoyguapo" 5 times.(ñæóÇøÿÿÿÿ8íÆİûÅ1
+k
+java:S1192"IDefine a constant instead of duplicating this literal "lameSeta" 6 times.(»ÀÔÏüÿÿÿÿ8íÆİûÅ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜­Ôıÿÿÿÿ8ßõÜûÅ1
+]	java:S125?"<This block of commented-out lines of code should be removed.(ìñ„Ôûÿÿÿÿ8ùÆİûÅ1
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8êõÜûÅ1

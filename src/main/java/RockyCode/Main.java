@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         //---------------------------------------------prueba rapida----------------------------------------------------
-        /*
+
         //control de banda
         ControlBanda banda = new ControlBanda("Salsa","tomate", LocalDate.of(2020,11,23));
 
@@ -57,8 +57,9 @@ public class Main {
         //agregar instrumentos a los miembros
         banda.agregarInstrumentoMiembro("sapopeta","piano");
         banda.InfoBanda();
-        */
+
         //----------------------------------funcionamiento por consola-------------------------------------------------
+        /*
         int selector;
         ControlBanda bandaTerminal = null;
         boolean bandaExist = false;
@@ -119,6 +120,9 @@ public class Main {
                 case 2:
                     System.out.println("Agregar un nuevo Miembro seleccionado...");
                     System.out.println("Nombre del nuevo miembro:");
+
+                    scanner.nextLine();
+
                     String nuevoMiembroNombre = scanner.nextLine();
 
                     System.out.println("Instrumento del nuevo miembro:");
@@ -131,6 +135,7 @@ public class Main {
                 case 3:
                     System.out.println("Agregar un nuevo Álbum seleccionado...");
                     System.out.println("Nombre del nuevo álbum:");
+                    scanner.nextLine();
                     String nuevoAlbumNombre = scanner.nextLine();
 
                     System.out.println("Fecha de lanzamiento del nuevo álbum (Año Mes Día):");
@@ -145,6 +150,7 @@ public class Main {
                 case 4:
                     System.out.println("Agregar una nueva Canción a un Álbum seleccionado...");
                     System.out.println("Nombre del álbum:");
+                    scanner.nextLine();
                     String albumNombre = scanner.nextLine();
 
                     System.out.println("Nombre de la nueva canción:");
@@ -161,6 +167,7 @@ public class Main {
                     if(bandaExist){
                         System.out.println("Información de un Álbum seleccionado...");
                         System.out.println("Nombre del álbum:");
+                        scanner.nextLine();
                         String infoAlbumNombre = scanner.nextLine();
 
                         // Llama al método para obtener la información de un álbum
@@ -181,6 +188,7 @@ public class Main {
                 case 7:
                     System.out.println("Eliminar miembro de la Banda seleccionado...");
                     System.out.println("Nombre del miembro a eliminar:");
+                    scanner.nextLine();
                     String miembroAEliminar = scanner.nextLine();
 
                     // Llama al método para eliminar un miembro de la banda
@@ -190,6 +198,7 @@ public class Main {
                 case 8:
                     System.out.println("Actualizar información de la Banda seleccionado...");
                     System.out.println("Nuevo género de la banda:");
+                    scanner.nextLine();
                     String nuevoGenero = scanner.nextLine();
 
                     System.out.println("Nueva foto de la banda:");
@@ -207,6 +216,7 @@ public class Main {
                 case 9:
                     System.out.println("Programar nuevo concierto seleccionado...");
                     System.out.println("Nombre del concierto:");
+                    scanner.nextLine();
                     String nombreConcierto = scanner.nextLine();
 
                     System.out.println("Ubicación del concierto:");
@@ -230,6 +240,7 @@ public class Main {
                 case 10:
                     System.out.println("Agregar canción al concierto seleccionado...");
                     System.out.println("Nombre del álbum:");
+                    scanner.nextLine();
                     String albumConcierto = scanner.nextLine();
 
                     System.out.println("Nombre de la canción a agregar al concierto:");
@@ -252,6 +263,7 @@ public class Main {
                 case 12:
                     System.out.println("Agregar instrumentos a los miembros seleccionado...");
                     System.out.println("Nombre del miembro:");
+                    scanner.nextLine();
                     String miembroInstrumento = scanner.nextLine();
 
                     System.out.println("Instrumento a agregar:");
@@ -265,6 +277,8 @@ public class Main {
                     System.out.println("Elige un numero valido del menu de opciones");
             }
         }while (selector != 0);
+        */
+
     }
 
 }
