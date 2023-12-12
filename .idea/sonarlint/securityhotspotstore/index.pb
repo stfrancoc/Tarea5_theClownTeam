@@ -17,3 +17,5 @@ Q
 !src/main/java/RockyCode/Main.java,b\a\ba1e481ccc117bffd0b83624ef3c9bb3e752f0f0
 V
 &src/test/java/RockyCode/AlbumTest.java,a\c\ac4d5ea9511f59f19ca3a8029e690dbdb3d6c641
+V
+&src/test/java/RockyCode/BandaTest.java,e\8\e860cb3f335a24a22f8d00628e4a22bd5cc0f3e8

@@ -246,6 +246,9 @@ public class Banda {
      */
     public String ConsultarAlbum(String nombre) {
         Album album = BuscarAlbum(nombre);
+        if(album==null){
+            return "";
+        }
         return album.toString();
     }
 
